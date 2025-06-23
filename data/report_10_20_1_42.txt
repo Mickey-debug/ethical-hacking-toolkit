@@ -1,0 +1,15 @@
+Scan report for 10.20.1.42
+Time: 2025-06-23 13:41:32.774909
+
+[+] Host: 10.20.1.42
+    State: up
+
+    Port 135/tcp is open - Service: msrpc Microsoft Windows RPC 
+    Port 139/tcp is open - Service: netbios-ssn Microsoft Windows netbios-ssn 
+    [⚠] NetBIOS over TCP/IP can expose file shares.
+    Port 445/tcp is open - Service: microsoft-ds  
+    [⚠] SMB can be abused for lateral movement or ransomware.
+    Port 3306/tcp is open - Service: mysql MySQL 
+    [⚠] MySQL exposed over the network may be vulnerable to brute-force or misconfiguration.
+    Port 16992/tcp is open - Service: http Intel Active Management Technology User Notification Service httpd 12.0.95.2489
+    [⚠] HTTP is unencrypted and vulnerable to MITM attacks.

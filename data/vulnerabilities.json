@@ -1,0 +1,11 @@
+{
+  "21": "FTP is insecure and transmits data in plain text.",
+  "23": "Telnet is unencrypted and insecure. Consider using SSH.",
+  "80": "HTTP lacks encryption. Use HTTPS instead.",
+  "139": "NetBIOS over TCP/IP can expose file shares.",
+  "445": "SMB can be abused for lateral movement or ransomware.",
+  "3306": "MySQL exposed over the network may be vulnerable to brute-force or misconfiguration.",
+  "3389": "RDP is a common target for brute-force and remote exploits.",
+  "http": "HTTP is unencrypted and vulnerable to MITM attacks.",
+  "mysql": "MySQL is often misconfigured and may leak data."
+}

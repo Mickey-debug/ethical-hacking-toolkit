@@ -1,0 +1,11 @@
+Subnet scan: 10.20.1.0/24
+Time: 2025-06-23 14:04:00.609388
+
+Live hosts found: 1
+
+[+] Host: 10.20.1.42
+    Port 135/tcp is open - Service: msrpc Microsoft Windows RPC 
+    Port 445/tcp is open - Service: microsoft-ds  
+    [⚠] SMB can be abused for lateral movement or ransomware.
+    Port 3306/tcp is open - Service: mysql MySQL 
+    [⚠] MySQL exposed over the network may be vulnerable to brute-force or misconfiguration.
